@@ -41,4 +41,4 @@ if __name__ == "__main__":
     util.get_location_names()
     util.load_saved_aritifacts()
     #util.predict_home_price()
-    app.run()
+    app.run(debug=True, host="0.0.0.0", port=9696)
